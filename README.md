@@ -61,18 +61,19 @@ git submodule add https://github.com/your-username/learn-skill.git learn
 
 ```
 learn/
-├── SKILL.md          # 技能说明文档
-├── README.md         # 项目说明文档
-└── output.md         # 技能输出模板
+└── SKILL.md          # 技能说明文档（定义技能行为和指令）
 ```
 
 ## 开发
 
 技能基于 [Claude Code Skill](https://github.com/anthropics/claude-code) 系统开发。
 
-### 添加新关键词
+### 修改学习内容
 
-修改 `output.md` 模板，更新关键词表格和学习建议。
+编辑 `SKILL.md` 中的指令部分，调整：
+- 核心关键词表格的分类和内容
+- 学习路径的阶段划分
+- 实践应用建议
 
 ### 调试
 
